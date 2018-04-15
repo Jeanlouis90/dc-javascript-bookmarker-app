@@ -44,12 +44,13 @@ body {
   
   /* Main marketing message and sign up button */
   .jumbotron {
-    background: #eaeaea;
+    background: linear-gradient(#79c457, #6ef525);
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    color: white;
   }
   .jumbotron:hover{
-      background: #79c457;
+      background: #79c457
       transition: background-color 1s ease-out;
       color: white;
   }
