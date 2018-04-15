@@ -2,6 +2,7 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif; 
   }
   
   /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -43,13 +44,20 @@ body {
   
   /* Main marketing message and sign up button */
   .jumbotron {
+    background: #eaeaea;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+  }
+  .jumbotron:hover{
+      background: #79c457;
+      transition: background-color 1s ease-out;
+      color: white;
   }
   .jumbotron .btn {
     padding: 14px 24px;
     font-size: 21px;
   }
+  .jumbotron h2:hover
   
   /* Supporting marketing content */
   .marketing {
